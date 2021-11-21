@@ -5,7 +5,7 @@ phases:
       java: corretto8
   build:
     commands:
-    - echo Running JUNIT TEST CASE
+    - echo Running JUNIT TEST CASES
     - mvn clean test 
        
 reports:
