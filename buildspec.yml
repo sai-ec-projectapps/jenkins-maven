@@ -9,7 +9,7 @@ phases:
     - mvn clean test 
        
 reports:
-  arn:aws:codebuild:ap-south-1:481782230560:report-group/sampleUnitTest:
+  arn:aws:codebuild:ap-south-1:481782230560:report-group/mavenReport:
     files:
       - "**/*"
     discard-paths: yes
