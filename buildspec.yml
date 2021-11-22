@@ -6,7 +6,7 @@ phases:
   build:
     commands:
     - echo Running JUNIT TEST CASE
-    - mvn clean compile test 
+    - mvn clean test 
        
 reports:
   arn:aws:codebuild:ap-south-1:481782230560:report-group/mavenReport:
