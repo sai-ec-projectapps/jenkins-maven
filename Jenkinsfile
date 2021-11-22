@@ -52,13 +52,13 @@ pipeline {
                 sh 'docker run -itd -p 8081:8080 anvbhaskar/springboot:0.0.3'
             }
         }
-
+        */
         
         stage('Archving') { 
             steps {
                  archiveArtifacts '**/target/*.jar'
             }
         }
-        */
+        
     }
 }
