@@ -48,7 +48,4 @@ public class AppTest
     {
         assertTrue( true );
     }
-    public void test(){
-  throw new RuntimeException();
-}
 }
