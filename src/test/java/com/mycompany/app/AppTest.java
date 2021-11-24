@@ -19,7 +19,7 @@ public class AppTest
     }
     
     @Test
-    public void shouldAnswerWithTru1()
+    public void shouldAnswerWithTrue1()
     {
         assertTrue( true );
     }
@@ -48,4 +48,7 @@ public class AppTest
     {
         assertTrue( true );
     }
+    public void test(){
+  throw new RuntimeException();
+}
 }
