@@ -15,11 +15,11 @@ public class AppTest
     @Test
     public void shouldAnswerWithTrue()
     {
-        assertTru( true );
+        assertTrue( true );
     }
     
     @Test
-    public void shouldAnswerWithTrue1()
+    public void shouldAnswerWithTru1()
     {
         assertTrue( true );
     }
